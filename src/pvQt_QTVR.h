@@ -130,7 +130,7 @@ private:
     bool m_currTrackIsImageTrack;
 
     std::vector<SampleToChunkEntry> m_sample2ChunkTable;
-    char * m_error;
+    const char * m_error;
 
     bool m_horizontalCyl;
     bool m_cmovZLib;
