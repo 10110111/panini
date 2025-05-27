@@ -60,7 +60,7 @@ static void errMsgHandler( QtMsgType type, const QMessageLogContext &context, co
 MainWindow::MainWindow( QWidget * parent)
 {
     //install modal error message handler
-    qInstallMessageHandler( errMsgHandler );
+//    qInstallMessageHandler( errMsgHandler );
 
     //create actions that aren't in menus
     //toggle panosurface type
